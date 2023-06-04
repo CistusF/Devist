@@ -1,0 +1,25 @@
+.card {
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card>.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 50px;
+}
+
+.card>.container>.name {
+    flex-grow: 3;
+}
+
+.card>.container>.date {
+    flex-grow: 1;
+}
+
+.card>.container>.type {
+    flex-grow: 1;
+}
